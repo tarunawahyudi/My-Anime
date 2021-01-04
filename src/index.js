@@ -1,4 +1,5 @@
 import './style/style.css';
-import anime from './script/components/AppBar.js';
+import main from './script/views/main.js';
+import './script/components/AppBar.js';
 
-console.log(anime.title);
+document.addEventListener("DOMContentLoaded", main);
